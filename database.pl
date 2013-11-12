@@ -1,8 +1,5 @@
-:- discontiguous category_properties/2.
-:- discontiguous object_properties/2.
-
 % category_properties(category_name, list_of_properties)
-category_properties(comedy, [emotional,funny]).
+category_properties(comedy, [drama,funny]).
 category_properties(drama, [emotional]).
 category_properties(documentary, [nonfiction,informative]).
 
